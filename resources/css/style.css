@@ -117,5 +117,47 @@ aside {
 }
 #ruler {
   width: 5rem;
+}
+.columns_section {
+  display: flex;
+  margin: auto;
+  border: 1px solid red;
+  width: 75%;
+  padding-bottom: 5rem;
+}
+.column {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  margin-right: 5%;
+}
+.green {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  font-weight: bold;
+  width: 10rem;
+  color: white;
+  background-color: cadetblue;
+  padding: 0.5rem 0rem 0.5rem 1.25rem;
+}
+footer {
+  display: flex;
+  align-items: center;
+  width: 75%;
+  height: 9.5rem;
+  margin: auto;
+  background-color: azure;
+  padding-left: 4rem;
+  Border: 3px solid gold;
+}
+.black_logo {
+  height: 1.5rem;
+  margin-right: 1rem;
+  display: inline;
+  float: left;
+}
+.footer_content {
+  display: fex;
+  align-items: center;
 
 }
